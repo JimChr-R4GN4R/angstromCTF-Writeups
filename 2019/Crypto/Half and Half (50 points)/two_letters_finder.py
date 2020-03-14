@@ -58,5 +58,5 @@ for letter_1 in unknown_letter1:
 		except:
 			pass
 
-	############### Useful sources for this script ###############
-	# https://github.com/quintuplecs/angstromctf2019/blob/master/crypto/Half-and-Half.md
+############### Useful sources for this script ###############
+# https://github.com/quintuplecs/angstromctf2019/blob/master/crypto/Half-and-Half.md
