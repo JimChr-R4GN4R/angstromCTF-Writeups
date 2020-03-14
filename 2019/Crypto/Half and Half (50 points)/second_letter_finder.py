@@ -1,7 +1,7 @@
 # Example:
 # ciphertext is = \x15\x02\x07\x12\x1e\x100\x01\t\n\x01"
-# we know these:    a   c   t    f  {    ..  .  . .  . }
-# unkown_letters:   .   .   .    .  .    ..  .  . .  . .
+# we know these:    a   c   t    f  {    ..  .  . .  . .
+# unkown_letters:   .   .   .    .  .    ..  .  . .  . }
 
 # So here we know 'a' and the result which is in hex x15 
 # We will see that the a has to be xored with t to get 0x15 so put it in it's possition.
@@ -9,8 +9,8 @@
 # !!! Cearful because ciphertext has at the end this character " !!! This is NOT hex,so you have to convert it !!! " in hex is 22 so at known_hex_result put x22
 
 # ciphertext is = \x15\x02\x07\x12\x1e\x100\x01\t\n\x01"
-# we know these:    a   c   t    f  {    ..  .  . .  . }
-# unkown_letters:   t   a   s    t  e    ..  .  . .  . _
+# we know these:    a   c   t    f  {    ..  .  . .  . _
+# unkown_letters:   t   a   s    t  e    ..  .  . .  . }
 
 # And so on...
 
