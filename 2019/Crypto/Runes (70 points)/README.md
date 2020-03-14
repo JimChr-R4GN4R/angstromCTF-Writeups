@@ -34,9 +34,11 @@ So we need to find `L` and `mi` ...
 
 Here are all the equations we need to find L:
 
-```L(x) = (x - 1) / n
+```
+L(x) = (x - 1) / n
 x = (c^phi) MOD (n^2)
-phi = (p - 1) * (q - 1)```
+phi = (p - 1) * (q - 1)
+```
 
 So first we have to find `phi`,so I used https://www.alpertron.com.ar/ECM.HTM and put n in ther and pressed 'Factor' button.
 
