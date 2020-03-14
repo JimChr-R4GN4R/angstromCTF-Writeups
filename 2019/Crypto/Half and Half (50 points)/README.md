@@ -1,7 +1,7 @@
 Mm, coffee. Best served with half and half!
 
 half_and_half.py:
-
+```
 from secret import flag
 
 def xor(x, y):
@@ -17,7 +17,7 @@ milk = flag[:half]
 cream = flag[half:]
 
 assert xor(milk, cream) == '\x15\x02\x07\x12\x1e\x100\x01\t\n\x01"'
-
+```
 ###################################################################
 
 [INSTRUCTIONS_SOON]
